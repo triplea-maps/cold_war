@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Cold War" version="0.1"/>
+  <info name="Cold War" version="0.2"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <map>
     <!-- Territory Definitions -->
@@ -9,21 +9,21 @@
     <territory name="Tver"/>
     <territory name="Latvia"/>
     <territory name="Kazan"/>
-    <territory name="Nizhi-Novgorod"/>
+    <territory name="Nizhny Novgorod"/>
     <territory name="Prussia"/>
     <territory name="Ryazan"/>
     <territory name="Leningrad"/>
     <territory name="West Ukraine"/>
     <territory name="Pskov"/>
-    <territory name="Valdimir"/>
+    <territory name="Vladimir"/>
     <territory name="Crimea"/>
     <territory name="Havana"/>
-    <territory name="Belorus"/>
+    <territory name="Belarus"/>
     <territory name="Estonia"/>
     <territory name="East Cuba"/>
     <territory name="Caucasus"/>
     <territory name="Kiev"/>
-    <territory name="Novgorad"/>
+    <territory name="Novgorod"/>
     <territory name="Moldavia"/>
     <territory name="Minsk"/>
     <territory name="Moscow"/>
@@ -38,7 +38,7 @@
     <territory name="Azerbaijan"/>
     <territory name="Finland"/>
     <territory name="Lithuania"/>
-    <territory name="Kazahk"/>
+    <territory name="Kazakh"/>
     <territory name="Smolensk"/>
     <territory name="Don"/>
     <territory name="Puerto Rico"/>
@@ -54,7 +54,7 @@
     <territory name="New Orleans"/>
     <territory name="Iceland"/>
     <territory name="Algarve"/>
-    <territory name="Gibraltor"/>
+    <territory name="Gibraltar"/>
     <territory name="Baffin Island"/>
     <territory name="Norte"/>
     <territory name="Scotland"/>
@@ -81,9 +81,9 @@
     <territory name="Franche-Comte"/>
     <territory name="Burgundy"/>
     <territory name="Alsace"/>
-    <territory name="Britanny"/>
+    <territory name="Brittany"/>
     <territory name="Champaign"/>
-    <territory name="Languedec"/>
+    <territory name="Languedoc"/>
     <territory name="Auvergne"/>
     <territory name="Marseille"/>
     <territory name="East Rumania"/>
@@ -110,7 +110,7 @@
     <territory name="Hanover"/>
     <territory name="Rhine"/>
     <territory name="Denmark"/>
-    <territory name="Wurttemburg"/>
+    <territory name="Wurttemberg"/>
     <territory name="Belgium"/>
     <territory name="Norway"/>
     <territory name="Amsterdam"/>
@@ -201,7 +201,7 @@
     <territory name="SZ 59" water="true"/>
     <territory name="SZ 58" water="true"/>
     <territory name="Switzerland"/>
-    <territory name="Navare"/>
+    <territory name="Navarre"/>
     <territory name="Albania"/>
     <territory name="SE Yugoslavia"/>
     <territory name="SZ 42" water="true"/>
@@ -241,57 +241,57 @@
     <territory name="Algiers"/>
     <!-- Territory Connections -->
     <connection t1="Karelia" t2="Leningrad"/>
-    <connection t1="Karelia" t2="Novgorad"/>
+    <connection t1="Karelia" t2="Novgorod"/>
     <connection t1="Karelia" t2="Archangelsk"/>
     <connection t1="Karelia" t2="Murmansk"/>
     <connection t1="Karelia" t2="SZ 8"/>
     <connection t1="Karelia" t2="Finland"/>
     <connection t1="Tver" t2="Ryazan"/>
     <connection t1="Tver" t2="Pskov"/>
-    <connection t1="Tver" t2="Valdimir"/>
-    <connection t1="Tver" t2="Novgorad"/>
+    <connection t1="Tver" t2="Vladimir"/>
+    <connection t1="Tver" t2="Novgorod"/>
     <connection t1="Tver" t2="Moscow"/>
     <connection t1="Tver" t2="Smolensk"/>
     <connection t1="Latvia" t2="Pskov"/>
-    <connection t1="Latvia" t2="Belorus"/>
+    <connection t1="Latvia" t2="Belarus"/>
     <connection t1="Latvia" t2="Estonia"/>
     <connection t1="Latvia" t2="SZ 9"/>
     <connection t1="Latvia" t2="Lithuania"/>
     <connection t1="Latvia" t2="Smolensk"/>
-    <connection t1="Kazan" t2="Nizhi-Novgorod"/>
+    <connection t1="Kazan" t2="Nizhny Novgorod"/>
     <connection t1="Kazan" t2="Ryazan"/>
-    <connection t1="Kazan" t2="Valdimir"/>
+    <connection t1="Kazan" t2="Vladimir"/>
     <connection t1="Kazan" t2="Vologda"/>
-    <connection t1="Kazan" t2="Kazahk"/>
-    <connection t1="Nizhi-Novgorod" t2="Valdimir"/>
-    <connection t1="Nizhi-Novgorod" t2="Vologda"/>
+    <connection t1="Kazan" t2="Kazakh"/>
+    <connection t1="Nizhny Novgorod" t2="Vladimir"/>
+    <connection t1="Nizhny Novgorod" t2="Vologda"/>
     <connection t1="Prussia" t2="North Poland"/>
     <connection t1="Prussia" t2="East Poland"/>
     <connection t1="Prussia" t2="Central Poland"/>
     <connection t1="Prussia" t2="SZ 11"/>
     <connection t1="Prussia" t2="Lithuania"/>
-    <connection t1="Ryazan" t2="Valdimir"/>
+    <connection t1="Ryazan" t2="Vladimir"/>
     <connection t1="Ryazan" t2="Moscow"/>
     <connection t1="Ryazan" t2="Volgograd"/>
-    <connection t1="Ryazan" t2="Kazahk"/>
+    <connection t1="Ryazan" t2="Kazakh"/>
     <connection t1="Ryazan" t2="Don"/>
     <connection t1="Leningrad" t2="Pskov"/>
-    <connection t1="Leningrad" t2="Novgorad"/>
+    <connection t1="Leningrad" t2="Novgorod"/>
     <connection t1="Leningrad" t2="SZ 9"/>
     <connection t1="Leningrad" t2="Finland"/>
     <connection t1="West Ukraine" t2="Crimea"/>
-    <connection t1="West Ukraine" t2="Belorus"/>
+    <connection t1="West Ukraine" t2="Belarus"/>
     <connection t1="West Ukraine" t2="SZ 63"/>
     <connection t1="West Ukraine" t2="Kiev"/>
     <connection t1="West Ukraine" t2="Moldavia"/>
     <connection t1="West Ukraine" t2="East Ukraine"/>
     <connection t1="Pskov" t2="Estonia"/>
-    <connection t1="Pskov" t2="Novgorad"/>
+    <connection t1="Pskov" t2="Novgorod"/>
     <connection t1="Pskov" t2="SZ 9"/>
     <connection t1="Pskov" t2="Smolensk"/>
-    <connection t1="Valdimir" t2="Novgorad"/>
-    <connection t1="Valdimir" t2="Archangelsk"/>
-    <connection t1="Valdimir" t2="Vologda"/>
+    <connection t1="Vladimir" t2="Novgorod"/>
+    <connection t1="Vladimir" t2="Archangelsk"/>
+    <connection t1="Vladimir" t2="Vologda"/>
     <connection t1="Crimea" t2="SZ 63"/>
     <connection t1="Crimea" t2="SZ 64"/>
     <connection t1="Crimea" t2="Caucasus"/>
@@ -299,12 +299,12 @@
     <connection t1="Havana" t2="SZ 36"/>
     <connection t1="Havana" t2="SZ 40"/>
     <connection t1="Havana" t2="West Cuba"/>
-    <connection t1="Belorus" t2="East Poland"/>
-    <connection t1="Belorus" t2="Minsk"/>
-    <connection t1="Belorus" t2="East Ukraine"/>
-    <connection t1="Belorus" t2="Lithuania"/>
-    <connection t1="Belorus" t2="Don"/>
-    <connection t1="Belorus" t2="Smolensk"/>
+    <connection t1="Belarus" t2="East Poland"/>
+    <connection t1="Belarus" t2="Minsk"/>
+    <connection t1="Belarus" t2="East Ukraine"/>
+    <connection t1="Belarus" t2="Lithuania"/>
+    <connection t1="Belarus" t2="Don"/>
+    <connection t1="Belarus" t2="Smolensk"/>
     <connection t1="Estonia" t2="SZ 9"/>
     <connection t1="East Cuba" t2="SZ 43"/>
     <connection t1="East Cuba" t2="West Cuba"/>
@@ -312,10 +312,10 @@
     <connection t1="Caucasus" t2="East Ukraine"/>
     <connection t1="Caucasus" t2="Volgograd"/>
     <connection t1="Caucasus" t2="Azerbaijan"/>
-    <connection t1="Caucasus" t2="Kazahk"/>
+    <connection t1="Caucasus" t2="Kazakh"/>
     <connection t1="Caucasus" t2="Don"/>
     <connection t1="Kiev" t2="East Ukraine"/>
-    <connection t1="Novgorad" t2="Archangelsk"/>
+    <connection t1="Novgorod" t2="Archangelsk"/>
     <connection t1="Minsk" t2="Don"/>
     <connection t1="Moscow" t2="Don"/>
     <connection t1="Moscow" t2="Smolensk"/>
@@ -329,7 +329,7 @@
     <connection t1="Vologda" t2="Naryan-Mar"/>
     <connection t1="East Ukraine" t2="Don"/>
     <connection t1="Naryan-Mar" t2="SZ 8"/>
-    <connection t1="Volgograd" t2="Kazahk"/>
+    <connection t1="Volgograd" t2="Kazakh"/>
     <connection t1="Volgograd" t2="Don"/>
     <connection t1="Don" t2="Smolensk"/>
     <connection t1="Puerto Rico" t2="SZ 45"/>
@@ -361,8 +361,8 @@
     <connection t1="Algarve" t2="Norte"/>
     <connection t1="Algarve" t2="Lisbon"/>
     <connection t1="Algarve" t2="Extremadura"/>
-    <connection t1="Gibraltor" t2="Andalusia"/>
-    <connection t1="Gibraltor" t2="SZ 54"/>
+    <connection t1="Gibraltar" t2="Andalusia"/>
+    <connection t1="Gibraltar" t2="SZ 54"/>
     <connection t1="Baffin Island" t2="Nunavut"/>
     <connection t1="Baffin Island" t2="SZ 1"/>
     <connection t1="Baffin Island" t2="SZ 2"/>
@@ -401,26 +401,26 @@
     <connection t1="Ontario" t2="SZ 1"/>
     <connection t1="Toulouse" t2="Aquitaine"/>
     <connection t1="Toulouse" t2="Catalonia"/>
-    <connection t1="Toulouse" t2="Languedec"/>
+    <connection t1="Toulouse" t2="Languedoc"/>
     <connection t1="Toulouse" t2="Auvergne"/>
     <connection t1="Normandy" t2="Picardy"/>
     <connection t1="Normandy" t2="Paris"/>
     <connection t1="Normandy" t2="Burgundy"/>
     <connection t1="Normandy" t2="SZ 25"/>
-    <connection t1="Normandy" t2="Britanny"/>
+    <connection t1="Normandy" t2="Brittany"/>
     <connection t1="Normandy" t2="SZ 15"/>
     <connection t1="Rhone" t2="Franche-Comte"/>
     <connection t1="Rhone" t2="Burgundy"/>
     <connection t1="Rhone" t2="Switzerland"/>
     <connection t1="Rhone" t2="Piedmont"/>
-    <connection t1="Rhone" t2="Languedec"/>
+    <connection t1="Rhone" t2="Languedoc"/>
     <connection t1="Rhone" t2="Auvergne"/>
     <connection t1="Rhone" t2="Marseille"/>
     <connection t1="Aquitaine" t2="Burgundy"/>
     <connection t1="Aquitaine" t2="Catalonia"/>
     <connection t1="Aquitaine" t2="SZ 26"/>
-    <connection t1="Aquitaine" t2="Navare"/>
-    <connection t1="Aquitaine" t2="Britanny"/>
+    <connection t1="Aquitaine" t2="Navarre"/>
+    <connection t1="Aquitaine" t2="Brittany"/>
     <connection t1="Aquitaine" t2="Auvergne"/>
     <connection t1="Picardy" t2="Paris"/>
     <connection t1="Picardy" t2="Belgium"/>
@@ -432,12 +432,12 @@
     <connection t1="Franche-Comte" t2="Switzerland"/>
     <connection t1="Franche-Comte" t2="Alsace"/>
     <connection t1="Franche-Comte" t2="Champaign"/>
-    <connection t1="Burgundy" t2="Britanny"/>
+    <connection t1="Burgundy" t2="Brittany"/>
     <connection t1="Burgundy" t2="Champaign"/>
     <connection t1="Burgundy" t2="Auvergne"/>
     <connection t1="Alsace" t2="Champaign"/>
-    <connection t1="Languedec" t2="Auvergne"/>
-    <connection t1="Languedec" t2="Marseille"/>
+    <connection t1="Languedoc" t2="Auvergne"/>
+    <connection t1="Languedoc" t2="Marseille"/>
     <connection t1="East Rumania" t2="NE Czech"/>
     <connection t1="East Rumania" t2="West Ukraine"/>
     <connection t1="East Rumania" t2="SZ 63"/>
@@ -452,7 +452,7 @@
     <connection t1="NE Czech" t2="West Poland"/>
     <connection t1="NE Czech" t2="SE Czech"/>
     <connection t1="NE Czech" t2="West Ukraine"/>
-    <connection t1="NE Czech" t2="Belorus"/>
+    <connection t1="NE Czech" t2="Belarus"/>
     <connection t1="NE Czech" t2="East Poland"/>
     <connection t1="NE Czech" t2="West Rumania"/>
     <connection t1="NE Czech" t2="Central Poland"/>
@@ -497,7 +497,7 @@
     <connection t1="Westphalia" t2="Saxony"/>
     <connection t1="Westphalia" t2="Amsterdam"/>
     <connection t1="Nassau" t2="Rhine"/>
-    <connection t1="Nassau" t2="Wurttemburg"/>
+    <connection t1="Nassau" t2="Wurttemberg"/>
     <connection t1="Nassau" t2="Saxony"/>
     <connection t1="Nassau" t2="Bavaria"/>
     <connection t1="Holland" t2="Hanover"/>
@@ -508,7 +508,7 @@
     <connection t1="Hanover" t2="Saxony"/>
     <connection t1="Hanover" t2="Mecklenburg"/>
     <connection t1="Hanover" t2="SZ 14"/>
-    <connection t1="Rhine" t2="Wurttemburg"/>
+    <connection t1="Rhine" t2="Wurttemberg"/>
     <connection t1="Rhine" t2="Belgium"/>
     <connection t1="Rhine" t2="Alsace"/>
     <connection t1="Rhine" t2="Amsterdam"/>
@@ -516,10 +516,10 @@
     <connection t1="Denmark" t2="SZ 12"/>
     <connection t1="Denmark" t2="SZ 13"/>
     <connection t1="Denmark" t2="SZ 14"/>
-    <connection t1="Wurttemburg" t2="Switzerland"/>
-    <connection t1="Wurttemburg" t2="Alsace"/>
-    <connection t1="Wurttemburg" t2="Bavaria"/>
-    <connection t1="Wurttemburg" t2="Munich"/>
+    <connection t1="Wurttemberg" t2="Switzerland"/>
+    <connection t1="Wurttemberg" t2="Alsace"/>
+    <connection t1="Wurttemberg" t2="Bavaria"/>
+    <connection t1="Wurttemberg" t2="Munich"/>
     <connection t1="Belgium" t2="Amsterdam"/>
     <connection t1="Belgium" t2="Champaign"/>
     <connection t1="Belgium" t2="SZ 15"/>
@@ -596,7 +596,7 @@
     <connection t1="Castille" t2="Madrid"/>
     <connection t1="Castille" t2="Catalonia"/>
     <connection t1="Castille" t2="SZ 26"/>
-    <connection t1="Castille" t2="Navare"/>
+    <connection t1="Castille" t2="Navarre"/>
     <connection t1="Castille" t2="Extremadura"/>
     <connection t1="Castille" t2="Toledo"/>
     <connection t1="Tripoli" t2="West Libya"/>
@@ -637,7 +637,7 @@
     <connection t1="SZ 69" t2="Smyrna"/>
     <connection t1="SZ 65" t2="Caucasus"/>
     <connection t1="SZ 65" t2="Azerbaijan"/>
-    <connection t1="SZ 65" t2="Kazahk"/>
+    <connection t1="SZ 65" t2="Kazakh"/>
     <connection t1="SZ 66" t2="SZ 67"/>
     <connection t1="SZ 66" t2="SZ 64"/>
     <connection t1="SZ 66" t2="Anatolia"/>
@@ -713,7 +713,7 @@
     <connection t1="Tobruk" t2="East Libya"/>
     <connection t1="SZ 39" t2="SZ 40"/>
     <connection t1="SZ 39" t2="Latin America"/>
-    <connection t1="SZ 33" t2="Gibraltor"/>
+    <connection t1="SZ 33" t2="Gibraltar"/>
     <connection t1="SZ 33" t2="Algarve"/>
     <connection t1="SZ 33" t2="Norte"/>
     <connection t1="SZ 33" t2="SZ 27"/>
@@ -751,14 +751,14 @@
     <connection t1="SZ 27" t2="SZ 23"/>
     <connection t1="SZ 27" t2="SZ 25"/>
     <connection t1="SZ 26" t2="SZ 25"/>
-    <connection t1="SZ 26" t2="Navare"/>
+    <connection t1="SZ 26" t2="Navarre"/>
     <connection t1="Catalonia" t2="SZ 56"/>
-    <connection t1="Catalonia" t2="Navare"/>
-    <connection t1="Catalonia" t2="Languedec"/>
+    <connection t1="Catalonia" t2="Navarre"/>
+    <connection t1="Catalonia" t2="Languedoc"/>
     <connection t1="Catalonia" t2="Toledo"/>
     <connection t1="SZ 25" t2="SZ 24"/>
     <connection t1="SZ 25" t2="England"/>
-    <connection t1="SZ 25" t2="Britanny"/>
+    <connection t1="SZ 25" t2="Brittany"/>
     <connection t1="SZ 25" t2="SZ 15"/>
     <connection t1="SZ 24" t2="SZ 18"/>
     <connection t1="SZ 24" t2="Ulster"/>
@@ -807,7 +807,7 @@
     <connection t1="SZ 57" t2="Piedmont"/>
     <connection t1="SZ 57" t2="Tuscany"/>
     <connection t1="SZ 57" t2="Latium"/>
-    <connection t1="SZ 56" t2="Languedec"/>
+    <connection t1="SZ 56" t2="Languedoc"/>
     <connection t1="SZ 56" t2="Majorca"/>
     <connection t1="SZ 56" t2="Marseille"/>
     <connection t1="SZ 59" t2="SZ 58"/>
@@ -892,11 +892,11 @@
     <player name="WFF" optional="false"/>
     <player name="Italians" optional="false"/>
     <player name="EFF" optional="false"/>
-    <alliance player="USSR" alliance="Axis"/>
+    <alliance player="USSR" alliance="Warsaw-Pact"/>
     <alliance player="Americans" alliance="NATO"/>
     <alliance player="NAF" alliance="NATO"/>
     <alliance player="French" alliance="NATO"/>
-    <alliance player="Satellites" alliance="Axis"/>
+    <alliance player="Satellites" alliance="Warsaw-Pact"/>
     <alliance player="WFF" alliance="NATO"/>
     <alliance player="Italians" alliance="NATO"/>
     <alliance player="EFF" alliance="NATO"/>
@@ -1353,7 +1353,7 @@
     <attachment name="territoryAttachment" attachTo="Kazan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Nizhi-Novgorod" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Nizhny Novgorod" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Prussia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1371,7 +1371,7 @@
     <attachment name="territoryAttachment" attachTo="Pskov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Valdimir" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Vladimir" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Crimea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1380,7 +1380,7 @@
     <attachment name="territoryAttachment" attachTo="Havana" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="5"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Belorus" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Belarus" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Estonia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1395,7 +1395,7 @@
     <attachment name="territoryAttachment" attachTo="Kiev" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="5"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Novgorad" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Novgorod" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Moldavia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1441,7 +1441,7 @@
     <attachment name="territoryAttachment" attachTo="Lithuania" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Kazahk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Kazakh" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Smolensk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1490,7 +1490,7 @@
     <attachment name="territoryAttachment" attachTo="Algarve" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Gibraltor" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Gibraltar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Baffin Island" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1573,13 +1573,13 @@
     <attachment name="territoryAttachment" attachTo="Alsace" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Britanny" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Brittany" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Champaign" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Languedec" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Languedoc" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Auvergne" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1661,7 +1661,7 @@
     <attachment name="territoryAttachment" attachTo="Denmark" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Wurttemburg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Wurttemberg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Belgium" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1815,7 +1815,7 @@
     <attachment name="territoryAttachment" attachTo="Switzerland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="5"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Navare" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Navarre" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Albania" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1875,21 +1875,21 @@
       <territoryOwner territory="Tver" owner="USSR"/>
       <territoryOwner territory="Latvia" owner="USSR"/>
       <territoryOwner territory="Kazan" owner="USSR"/>
-      <territoryOwner territory="Nizhi-Novgorod" owner="USSR"/>
+      <territoryOwner territory="Nizhny Novgorod" owner="USSR"/>
       <territoryOwner territory="Prussia" owner="USSR"/>
       <territoryOwner territory="Ryazan" owner="USSR"/>
       <territoryOwner territory="Leningrad" owner="USSR"/>
       <territoryOwner territory="West Ukraine" owner="USSR"/>
       <territoryOwner territory="Pskov" owner="USSR"/>
-      <territoryOwner territory="Valdimir" owner="USSR"/>
+      <territoryOwner territory="Vladimir" owner="USSR"/>
       <territoryOwner territory="Crimea" owner="USSR"/>
       <territoryOwner territory="Havana" owner="USSR"/>
-      <territoryOwner territory="Belorus" owner="USSR"/>
+      <territoryOwner territory="Belarus" owner="USSR"/>
       <territoryOwner territory="Estonia" owner="USSR"/>
       <territoryOwner territory="East Cuba" owner="USSR"/>
       <territoryOwner territory="Caucasus" owner="USSR"/>
       <territoryOwner territory="Kiev" owner="USSR"/>
-      <territoryOwner territory="Novgorad" owner="USSR"/>
+      <territoryOwner territory="Novgorod" owner="USSR"/>
       <territoryOwner territory="Moldavia" owner="USSR"/>
       <territoryOwner territory="Minsk" owner="USSR"/>
       <territoryOwner territory="Moscow" owner="USSR"/>
@@ -1903,7 +1903,7 @@
       <territoryOwner territory="Volgograd" owner="USSR"/>
       <territoryOwner territory="Azerbaijan" owner="USSR"/>
       <territoryOwner territory="Lithuania" owner="USSR"/>
-      <territoryOwner territory="Kazahk" owner="USSR"/>
+      <territoryOwner territory="Kazakh" owner="USSR"/>
       <territoryOwner territory="Smolensk" owner="USSR"/>
       <territoryOwner territory="Don" owner="USSR"/>
       <territoryOwner territory="Puerto Rico" owner="Americans"/>
@@ -1919,7 +1919,7 @@
       <territoryOwner territory="New Orleans" owner="Americans"/>
       <territoryOwner territory="Iceland" owner="NAF"/>
       <territoryOwner territory="Algarve" owner="NAF"/>
-      <territoryOwner territory="Gibraltor" owner="NAF"/>
+      <territoryOwner territory="Gibraltar" owner="NAF"/>
       <territoryOwner territory="Baffin Island" owner="NAF"/>
       <territoryOwner territory="Norte" owner="NAF"/>
       <territoryOwner territory="Scotland" owner="NAF"/>
@@ -1946,9 +1946,9 @@
       <territoryOwner territory="Franche-Comte" owner="French"/>
       <territoryOwner territory="Burgundy" owner="French"/>
       <territoryOwner territory="Alsace" owner="French"/>
-      <territoryOwner territory="Britanny" owner="French"/>
+      <territoryOwner territory="Brittany" owner="French"/>
       <territoryOwner territory="Champaign" owner="French"/>
-      <territoryOwner territory="Languedec" owner="French"/>
+      <territoryOwner territory="Languedoc" owner="French"/>
       <territoryOwner territory="Auvergne" owner="French"/>
       <territoryOwner territory="Marseille" owner="French"/>
       <territoryOwner territory="East Rumania" owner="Satellites"/>
@@ -1975,7 +1975,7 @@
       <territoryOwner territory="Hanover" owner="WFF"/>
       <territoryOwner territory="Rhine" owner="WFF"/>
       <territoryOwner territory="Denmark" owner="WFF"/>
-      <territoryOwner territory="Wurttemburg" owner="WFF"/>
+      <territoryOwner territory="Wurttemberg" owner="WFF"/>
       <territoryOwner territory="Belgium" owner="WFF"/>
       <territoryOwner territory="Norway" owner="WFF"/>
       <territoryOwner territory="Amsterdam" owner="WFF"/>
@@ -2031,7 +2031,7 @@
       <unitPlacement unitType="aaGun" territory="London" quantity="1" owner="NAF"/>
       <unitPlacement unitType="fighter" territory="London" quantity="2" owner="NAF"/>
       <unitPlacement unitType="Bunker" territory="London" quantity="1" owner="NAF"/>
-      <unitPlacement unitType="infantry" territory="Gibraltor" quantity="1" owner="NAF"/>
+      <unitPlacement unitType="infantry" territory="Gibraltar" quantity="1" owner="NAF"/>
       <unitPlacement unitType="infantry" territory="Lisbon" quantity="2" owner="NAF"/>
       <unitPlacement unitType="armour" territory="Lisbon" quantity="2" owner="NAF"/>
       <unitPlacement unitType="factory" territory="Lisbon" quantity="1" owner="NAF"/>
@@ -2106,7 +2106,7 @@
       <unitPlacement unitType="cruiser" territory="SZ 44" quantity="2" owner="Americans"/>
       <unitPlacement unitType="cruiser" territory="SZ 45" quantity="2" owner="Americans"/>
       <unitPlacement unitType="battleship" territory="SZ 45" quantity="1" owner="Americans"/>
-      <unitPlacement unitType="infantry" territory="Britanny" quantity="2" owner="French"/>
+      <unitPlacement unitType="infantry" territory="Brittany" quantity="2" owner="French"/>
       <unitPlacement unitType="infantry" territory="Normandy" quantity="2" owner="French"/>
       <unitPlacement unitType="artillery" territory="Normandy" quantity="2" owner="French"/>
       <unitPlacement unitType="factory" territory="Normandy" quantity="1" owner="French"/>
@@ -2179,9 +2179,9 @@
       <unitPlacement unitType="transport" territory="SZ 68" quantity="2" owner="EFF"/>
       <unitPlacement unitType="infantry" territory="Munich" quantity="4" owner="WFF"/>
       <unitPlacement unitType="armour" territory="Munich" quantity="2" owner="WFF"/>
-      <unitPlacement unitType="infantry" territory="Wurttemburg" quantity="4" owner="WFF"/>
-      <unitPlacement unitType="armour" territory="Wurttemburg" quantity="1" owner="WFF"/>
-      <unitPlacement unitType="artillery" territory="Wurttemburg" quantity="1" owner="WFF"/>
+      <unitPlacement unitType="infantry" territory="Wurttemberg" quantity="4" owner="WFF"/>
+      <unitPlacement unitType="armour" territory="Wurttemberg" quantity="1" owner="WFF"/>
+      <unitPlacement unitType="artillery" territory="Wurttemberg" quantity="1" owner="WFF"/>
       <unitPlacement unitType="infantry" territory="Bavaria" quantity="4" owner="WFF"/>
       <unitPlacement unitType="armour" territory="Bavaria" quantity="2" owner="WFF"/>
       <unitPlacement unitType="infantry" territory="Rhine" quantity="4" owner="WFF"/>
@@ -2272,7 +2272,7 @@
       <unitPlacement unitType="factory" territory="Archangelsk" quantity="1" owner="USSR"/>
       <unitPlacement unitType="aaGun" territory="Archangelsk" quantity="1" owner="USSR"/>
       <unitPlacement unitType="infantry" territory="Vologda" quantity="4" owner="USSR"/>
-      <unitPlacement unitType="infantry" territory="Novgorad" quantity="2" owner="USSR"/>
+      <unitPlacement unitType="infantry" territory="Novgorod" quantity="2" owner="USSR"/>
       <unitPlacement unitType="infantry" territory="Leningrad" quantity="4" owner="USSR"/>
       <unitPlacement unitType="artillery" territory="Leningrad" quantity="2" owner="USSR"/>
       <unitPlacement unitType="armour" territory="Leningrad" quantity="2" owner="USSR"/>
@@ -2287,9 +2287,9 @@
       <unitPlacement unitType="infantry" territory="Lithuania" quantity="2" owner="USSR"/>
       <unitPlacement unitType="infantry" territory="Prussia" quantity="2" owner="USSR"/>
       <unitPlacement unitType="artillery" territory="Prussia" quantity="2" owner="USSR"/>
-      <unitPlacement unitType="infantry" territory="Belorus" quantity="1" owner="USSR"/>
-      <unitPlacement unitType="armour" territory="Belorus" quantity="1" owner="USSR"/>
-      <unitPlacement unitType="gunship" territory="Belorus" quantity="2" owner="USSR"/>
+      <unitPlacement unitType="infantry" territory="Belarus" quantity="1" owner="USSR"/>
+      <unitPlacement unitType="armour" territory="Belarus" quantity="1" owner="USSR"/>
+      <unitPlacement unitType="gunship" territory="Belarus" quantity="2" owner="USSR"/>
       <unitPlacement unitType="infantry" territory="Minsk" quantity="2" owner="USSR"/>
       <unitPlacement unitType="fighter" territory="Minsk" quantity="1" owner="USSR"/>
       <unitPlacement unitType="factory" territory="Minsk" quantity="1" owner="USSR"/>
@@ -2314,15 +2314,15 @@
       <unitPlacement unitType="aaGun" territory="Moscow" quantity="1" owner="USSR"/>
       <unitPlacement unitType="infantry" territory="Ryazan" quantity="3" owner="USSR"/>
       <unitPlacement unitType="armour" territory="Ryazan" quantity="1" owner="USSR"/>
-      <unitPlacement unitType="infantry" territory="Valdimir" quantity="2" owner="USSR"/>
-      <unitPlacement unitType="armour" territory="Valdimir" quantity="1" owner="USSR"/>
-      <unitPlacement unitType="infantry" territory="Nizhi-Novgorod" quantity="2" owner="USSR"/>
-      <unitPlacement unitType="artillery" territory="Nizhi-Novgorod" quantity="2" owner="USSR"/>
-      <unitPlacement unitType="fighter" territory="Nizhi-Novgorod" quantity="2" owner="USSR"/>
-      <unitPlacement unitType="factory" territory="Nizhi-Novgorod" quantity="1" owner="USSR"/>
-      <unitPlacement unitType="aaGun" territory="Nizhi-Novgorod" quantity="1" owner="USSR"/>
+      <unitPlacement unitType="infantry" territory="Vladimir" quantity="2" owner="USSR"/>
+      <unitPlacement unitType="armour" territory="Vladimir" quantity="1" owner="USSR"/>
+      <unitPlacement unitType="infantry" territory="Nizhny Novgorod" quantity="2" owner="USSR"/>
+      <unitPlacement unitType="artillery" territory="Nizhny Novgorod" quantity="2" owner="USSR"/>
+      <unitPlacement unitType="fighter" territory="Nizhny Novgorod" quantity="2" owner="USSR"/>
+      <unitPlacement unitType="factory" territory="Nizhny Novgorod" quantity="1" owner="USSR"/>
+      <unitPlacement unitType="aaGun" territory="Nizhny Novgorod" quantity="1" owner="USSR"/>
       <unitPlacement unitType="infantry" territory="Kazan" quantity="4" owner="USSR"/>
-      <unitPlacement unitType="infantry" territory="Kazahk" quantity="4" owner="USSR"/>
+      <unitPlacement unitType="infantry" territory="Kazakh" quantity="4" owner="USSR"/>
       <unitPlacement unitType="infantry" territory="Volgograd" quantity="2" owner="USSR"/>
       <unitPlacement unitType="gunship" territory="Volgograd" quantity="2" owner="USSR"/>
       <unitPlacement unitType="fighter" territory="Volgograd" quantity="1" owner="USSR"/>
@@ -2411,7 +2411,7 @@
       <unitPlacement unitType="Bunker" territory="Catalonia" quantity="3"/>
       <unitPlacement unitType="Bunker" territory="Leon" quantity="3"/>
       <unitPlacement unitType="Bunker" territory="Castille" quantity="3"/>
-      <unitPlacement unitType="Bunker" territory="Navare" quantity="3"/>
+      <unitPlacement unitType="Bunker" territory="Navarre" quantity="3"/>
       <unitPlacement unitType="Bunker" territory="Madrid" quantity="5"/>
       <unitPlacement unitType="factory" territory="Madrid" quantity="1"/>
       <unitPlacement unitType="aaGun" territory="Madrid" quantity="1"/>
@@ -2524,6 +2524,6 @@
       <number min="0" max="1000"/>
     </property>
     <property name="mapName" value="cold_war" editable="false"/>
-    <property name="notes" value="Cold War Scenario  October 1962: Cuban Missle Crisis  Instead of following demands by the U.S. to remove missles in Cuba, Cuba is alligned with the United Soviet Socialist Republics(USSR) to not follow those orders, which then leads to war between the North Atlantic Trade Organisation(NATO) members and the Warsaw-Pact members including Cuba.  Alliances:  =Axis: U.S.S.R. and Satellite States(Poland, East Germany, Czechoslovakia, Hungary Bulgaria)  =N.A.T.O.: Americans, North Atlantic Forces(NAF: Canada, UK, Portugal, Iceland), Western Front Forces(WFF: West Germany, Netherlands, Belgium, Denmark, Norway), France, Italy, and Eastern Front Forces(EFF:Greece and Turkey)  Capitals: USSR=Moscow Satellites=Warsaw US=Washington D.C. NAF=London WFF=Amsterdam France=Paris Italy=Rome EFF=Istanbul                    Created by ????.            Converted up to TripleA 1.2.5.3 by Veqryn       "/>
+    <property name="notes" value="Cold War Scenario  October 1962: Cuban Missle Crisis  Instead of following demands by the U.S. to remove missles in Cuba, Cuba is alligned with the United Soviet Socialist Republics(USSR) to not follow those orders, which then leads to war between the North Atlantic Trade Organisation(NATO) members and the Warsaw-Pact members including Cuba.  Alliances:  =Warsaw-Pact: U.S.S.R. and Satellite States(Poland, East Germany, Czechoslovakia, Hungary Bulgaria)  =N.A.T.O.: Americans, North Atlantic Forces(NAF: Canada, UK, Portugal, Iceland), Western Front Forces(WFF: West Germany, Netherlands, Belgium, Denmark, Norway), France, Italy, and Eastern Front Forces(EFF:Greece and Turkey)  Capitals: USSR=Moscow Satellites=Warsaw US=Washington D.C. NAF=London WFF=Amsterdam France=Paris Italy=Rome EFF=Istanbul                    Created by ????.            Converted up to TripleA 1.2.5.3 by Veqryn       "/>
   </propertyList>
 </game>
