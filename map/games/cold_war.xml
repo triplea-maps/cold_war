@@ -82,7 +82,7 @@
     <territory name="Burgundy"/>
     <territory name="Alsace"/>
     <territory name="Brittany"/>
-    <territory name="Champaign"/>
+    <territory name="Champagne"/>
     <territory name="Languedoc"/>
     <territory name="Auvergne"/>
     <territory name="Marseille"/>
@@ -424,18 +424,18 @@
     <connection t1="Aquitaine" t2="Auvergne"/>
     <connection t1="Picardy" t2="Paris"/>
     <connection t1="Picardy" t2="Belgium"/>
-    <connection t1="Picardy" t2="Champaign"/>
+    <connection t1="Picardy" t2="Champagne"/>
     <connection t1="Picardy" t2="SZ 15"/>
     <connection t1="Paris" t2="Burgundy"/>
-    <connection t1="Paris" t2="Champaign"/>
+    <connection t1="Paris" t2="Champagne"/>
     <connection t1="Franche-Comte" t2="Burgundy"/>
     <connection t1="Franche-Comte" t2="Switzerland"/>
     <connection t1="Franche-Comte" t2="Alsace"/>
-    <connection t1="Franche-Comte" t2="Champaign"/>
+    <connection t1="Franche-Comte" t2="Champagne"/>
     <connection t1="Burgundy" t2="Brittany"/>
-    <connection t1="Burgundy" t2="Champaign"/>
+    <connection t1="Burgundy" t2="Champagne"/>
     <connection t1="Burgundy" t2="Auvergne"/>
-    <connection t1="Alsace" t2="Champaign"/>
+    <connection t1="Alsace" t2="Champagne"/>
     <connection t1="Languedoc" t2="Auvergne"/>
     <connection t1="Languedoc" t2="Marseille"/>
     <connection t1="East Rumania" t2="NE Czech"/>
@@ -512,7 +512,7 @@
     <connection t1="Rhine" t2="Belgium"/>
     <connection t1="Rhine" t2="Alsace"/>
     <connection t1="Rhine" t2="Amsterdam"/>
-    <connection t1="Rhine" t2="Champaign"/>
+    <connection t1="Rhine" t2="Champagne"/>
     <connection t1="Denmark" t2="SZ 12"/>
     <connection t1="Denmark" t2="SZ 13"/>
     <connection t1="Denmark" t2="SZ 14"/>
@@ -521,7 +521,7 @@
     <connection t1="Wurttemberg" t2="Bavaria"/>
     <connection t1="Wurttemberg" t2="Munich"/>
     <connection t1="Belgium" t2="Amsterdam"/>
-    <connection t1="Belgium" t2="Champaign"/>
+    <connection t1="Belgium" t2="Champagne"/>
     <connection t1="Belgium" t2="SZ 15"/>
     <connection t1="Norway" t2="SZ 13"/>
     <connection t1="Norway" t2="SZ 7"/>
@@ -1576,7 +1576,7 @@
     <attachment name="territoryAttachment" attachTo="Brittany" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Champaign" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Champagne" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Languedoc" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1947,7 +1947,7 @@
       <territoryOwner territory="Burgundy" owner="French"/>
       <territoryOwner territory="Alsace" owner="French"/>
       <territoryOwner territory="Brittany" owner="French"/>
-      <territoryOwner territory="Champaign" owner="French"/>
+      <territoryOwner territory="Champagne" owner="French"/>
       <territoryOwner territory="Languedoc" owner="French"/>
       <territoryOwner territory="Auvergne" owner="French"/>
       <territoryOwner territory="Marseille" owner="French"/>
@@ -2120,8 +2120,8 @@
       <unitPlacement unitType="factory" territory="Paris" quantity="1" owner="French"/>
       <unitPlacement unitType="aaGun" territory="Paris" quantity="1" owner="French"/>
       <unitPlacement unitType="infantry" territory="Alsace" quantity="4" owner="French"/>
-      <unitPlacement unitType="armour" territory="Champaign" quantity="1" owner="French"/>
-      <unitPlacement unitType="artillery" territory="Champaign" quantity="1" owner="French"/>
+      <unitPlacement unitType="armour" territory="Champagne" quantity="1" owner="French"/>
+      <unitPlacement unitType="artillery" territory="Champagne" quantity="1" owner="French"/>
       <unitPlacement unitType="infantry" territory="Burgundy" quantity="2" owner="French"/>
       <unitPlacement unitType="armour" territory="Burgundy" quantity="2" owner="French"/>
       <unitPlacement unitType="infantry" territory="Aquitaine" quantity="1" owner="French"/>
