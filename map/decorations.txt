@@ -1,3 +1,3 @@
-moscow.png  (2927, 679)
-dc.png  (400, 1160)
-cuban.png  (180, 1640)
+moscow.png  (2858,615) 
+dc.png  (441,1052) 
+cuban.png  (231,1487) 
